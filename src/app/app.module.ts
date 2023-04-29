@@ -8,6 +8,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProductsComponent } from './products/products.component';
 import { StatisticsComponent } from './statistics/statistics.component';
+import { CoupensComponent } from './coupens/coupens.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { StatisticsComponent } from './statistics/statistics.component';
     SidenavComponent,
     DashboardComponent,
     ProductsComponent,
-    StatisticsComponent
+    StatisticsComponent,
+    CoupensComponent
   ],
   imports: [
     BrowserModule,
