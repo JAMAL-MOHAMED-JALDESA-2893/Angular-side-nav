@@ -7,6 +7,7 @@ import { BodyComponent } from './body/body.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProductsComponent } from './products/products.component';
+import { StatisticsComponent } from './statistics/statistics.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ProductsComponent } from './products/products.component';
     BodyComponent,
     SidenavComponent,
     DashboardComponent,
-    ProductsComponent
+    ProductsComponent,
+    StatisticsComponent
   ],
   imports: [
     BrowserModule,
